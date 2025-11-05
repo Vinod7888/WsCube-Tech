@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+ul li {
+    cursor: pointer;
+}
+
+button:hover {
+    color: grey;
+}
+
+li {
+    cursor: pointer;
+    transition: .5s;
+}
+li:hover{
+    color: black;
+}
+.laptop-img{
+    transition: .5s
+}
+.laptop-img:hover {
+    transform: scale(0.9);
+}
